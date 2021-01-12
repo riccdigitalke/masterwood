@@ -100,10 +100,12 @@ a:focus, .btn:focus, .btn:active:focus, .btn.active:focus, .btn.focus, .btn:acti
 }
 #menu a.navbar-brand {
 	font-size: 22px;
-	color: #eee;
+	color:white;
 	font-weight: 400;
 	text-transform: uppercase;
 	letter-spacing: 1px;
+	border:2px solid red;
+	border-radius: 5px;
 }
 #menu.navbar-default .navbar-nav > li > a {
 	text-transform: uppercase;
@@ -111,9 +113,11 @@ a:focus, .btn:focus, .btn:active:focus, .btn.active:focus, .btn.focus, .btn:acti
 	font-weight: 400;
 	font-size: 15px;
 	padding: 5px 0;
-	border: 2px solid transparent;
+	border:2px solid white;
+	border-radius: 5px;
 	letter-spacing: 0.5px;
 	margin: 10px 15px 0 15px;
+	padding: 8px;
 }
 #menu.navbar-default .navbar-nav > li > a:hover {
 	color: #eee;
